@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    scrollbar-width: none;
+}
+/* header-area */
+.header-area{
+    height: 808px;
+    background-image: url('../images/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.header-des{
+    font-family: 'Work Sans';
+    text-align: right;
+    padding-top: 175px;
+    padding-right: 167px;
+      
+}
+.header-heading{
+    font-size: 40px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    word-spacing: 20px;
+    color: #FFFFFF;
+}
+.header-text{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    padding-bottom: 25px;
+}
+.btn-primary{
+    color:#3446e5;
+    text-transform: capitalize;
+    padding: 15px 18px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.btn-primary:hover{
+    border: 2px solid #3b459d;
+}
+/* main-area */
+.main-area{
+    padding: 50px ;
+   
+}
+.taking-ful-area{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+.main-des{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+.main-des h3{
+    font-size: 26px;
+    padding-bottom: 10px;
+
+}
+.main-des p{
+    font-size: 13px;
+    padding-bottom: 10px;
+
+}
+.main-img{
+   background-image: linear-gradient(180deg, rgba(54, 131, 225, 0.703), rgb(117, 189, 86));
+   border-radius: 100%;
+   width: 50%;
+}
+.square-root ul{
+     list-style: none;
+     text-align: right;
+     padding-right: 20px;
+}
+.square-root ul li{
+     font-size: 20px;
+}
+.square-root img{
+    height: 20px;
+    margin: 0 auto;
+}
+/* my-plans */
+.plans{
+    padding-bottom: 80px;
+}
+.plan-title{
+    text-transform: capitalize;
+    font-size: 30px;
+    text-align: center;
+
+}
+.full-div{
+    width: 90%;
+    margin: 0 auto;
+}
+.plans-icon{
+    padding: 80px 0;
+    display: flex;
+   
+}
+.ditails-icon{
+    padding-left: 160px;
+    text-align: center;
+}
+
+.text-area{ 
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient(to left, transparent, rgba(6, 20, 209, 0.64)), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    border-radius: 5px;
+   
+}
+.text-btn{
+    padding-top: 80px;
+    padding-left: 80px;
+}
+.text-btn p{
+    font-size: 30px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+/* footer-area */
+.footer-area{
+    background-color: rgba(0, 0, 0, 0.989);
+    
+}
+.footer-des h3{
+    font-size: 30px;
+    color:#FFFFFF;
+
+}
+.footer-des p{
+    color: rgba(255, 255, 255, 0.419);
+    font-size: 14px;
+    padding: 10px 0;
+}
+.footer-des a{
+    color: white;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.419);
+    
+}
+.footer-icon{
+    padding-top: 20px; 
+}
+.footer-icon img{
+    height: 27px;
+    margin: 0 auto;
+}
+.full-footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding: 80px 140px;
+   
+}
+.subscribtion{
+   padding-left: 730px;
+}
+.subscribtion h3{
+   color: white;
+   font-size: 20px;
+
+}
+.subscribtion input{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: black;
+    color:rgba(255, 255, 255, 0.73);
+    border-radius: 4px;
+}
+.btn-sub{
+    color:#eeeeef;
+    text-transform: capitalize;
+    padding: 15px 18px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #3446e5;
+}
